@@ -17,6 +17,7 @@ body {
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -57,12 +58,21 @@ ul.posts span {
 /* Site
 /*
 /*****************************************************************************/
-
+.top {
+    margin-top: 5px;
+    margin-right: 5px;
+    float: right;
+    width: 100%;
+}
+.contact {
+  float: right;
+}
 .site {
+  /*float: left;*/
   font-size: 115%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  margin: 0 auto;
   line-height: 1.5em;
 }
 
@@ -105,7 +115,7 @@ ul.posts span {
   overflow: hidden;
 }
 
-.site .footer .contact {
+.site .footer  {
   float: left;
   margin-right: 3em;
 }
