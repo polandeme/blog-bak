@@ -194,10 +194,10 @@ ul.posts span {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
     font-size: 20px;
-    color: #B3A4A4;
+    color: #545454;
 }
 .icon-github:hover ,.icon-google-plus:hover , .icon-twitter:hover {
-  color: #ffecec;
+  color: #222;
 }
 .icon-github:before {
 	content: "\e000";
