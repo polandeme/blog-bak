@@ -72,7 +72,7 @@ ul.posts span {
   font-size: 115%;
   text-align: justify;
   width: 42em;
-  margin: 0 auto;
+  margin: 0 auto 2em;
   line-height: 1.5em;
 }
 
@@ -194,7 +194,10 @@ ul.posts span {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
     font-size: 20px;
-    color: #222;
+    color: #B3A4A4;
+}
+.icon-github:hover ,.icon-google-plus:hover , .icon-twitter:hover {
+  color: #ffecec;
 }
 .icon-github:before {
 	content: "\e000";
