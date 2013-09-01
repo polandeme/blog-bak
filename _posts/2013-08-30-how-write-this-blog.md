@@ -2,7 +2,7 @@
 layout: post
 title:  我也写个前言
 date:   2013-08-30 16:50:46
-categories: Technology
+categories: 技术
 ---
 
 弄了两天没有弄成功的页面  
