@@ -110,7 +110,7 @@ ul.posts span {
 .site .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-top: 1px solid #eee;
   margin-top: 2em;
   overflow: hidden;
 }
@@ -118,20 +118,12 @@ ul.posts span {
 .site .footer  {
   float: left;
   margin-right: 3em;
+  width: 100%;
+  height: 60px;
 }
 
 .site .footer .contact a {
   color: #8085C1;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
 }
 
 /*****************************************************************************/
