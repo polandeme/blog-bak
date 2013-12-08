@@ -1,0 +1,124 @@
+body{
+    background-image: -webkit-linear-gradient(0deg, blue, green 40%, red);
+}
+.ball{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top:    50%;
+    left: 50%;
+    background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 200, 0.2) 0%, transparent 100%) !important ;
+}
+#blue{
+    background: blue;
+    animation: blue 7s infinite;
+    -webkit-animation: blue 7s infinite;
+}
+#red{
+    background: red;
+    animation: red 7s infinite;
+    -webkit-animation: red 7s infinite;
+}
+#yellow{
+    background: yellow;
+    animation: yellow 7s infinite;
+    -webkit-animation: yellow 7s infinite;
+}
+#green{
+    background: green;
+    animation: green 7s infinite;
+    -webkit-animation: green 7s infinite;
+}
+
+@-webkit-keyframes blue{
+    0% { margin-left: -7px; margin-top: -7px;}
+    12.5% { margin-left: 7px;  margin-top: 7px;  z-index: 10; }
+    25%{  margin-left: -7px; margin-top:-7px;  z-index: 0;}
+    37.5%{ margin-left: 7px;  margin-top: 7px;}
+    50%{ margin-left: -7px; margin-top: -7px;}
+62.5%{
+    margin-left: 7px;
+    margin-top: 7px;
+    z-index: 10;
+}
+75%{
+    margin-left: -7px;
+    margin-top: -7px;
+    z-index: 0;
+}
+87.5%{
+    margin-left: 7px;
+    margin-top: 7px;
+}
+100%{
+    margin-left: -7px;
+    margin-top: -7px;
+}
+}
+
+@-webkit-keyframes red{
+    0% {
+            margin-left: -7px;
+            margin-top: 7px;
+            z-index: 0;
+    }
+    12.5% {
+            margin-left: 7px;
+            margin-top: -7px;
+    }
+    25% {
+            margin-left: -7px;
+            margin-top:7px;
+}
+37.5% {
+    margin-left: 7px;
+    margin-top: -7px;
+}
+50% {
+    margin-left: -7px;
+    margin-top: 7px;
+    z-index: 10;
+}
+62.5% {
+    margin-left: 7px;
+    margin-top: -7px;
+    z-index: 0;
+}
+75% {
+    margin-left: -7px;
+    margin-top: 7px;
+}
+87.5% {
+    margin-left: 7px;
+    margin-top: -7px;
+}
+100% {
+    margin-left: -7px;
+    margin-top: 7px;
+    z-index:10;
+}
+}
+@-webkit-keyframes yellow{
+0% {  margin-left: 7px;  margin-top: -7px;}
+12.5% {  margin-left: -7px; margin-top: 7px;}
+25% {  margin-left: 7px; margin-top: -7px;}
+37.5% {  margin-left:-7px;  margin-top: 7px; z-index: 10;}
+50% {  margin-left: 7px; margin-top: -7px; z-index: 0;}
+62.5% { margin-left: -7px; margin-top: 7px; }
+75% { margin-left: 7px; margin-top: -7px; }
+87.5%{ margin-left: -7px; margin-top: 7px; z-index:10; }
+100% {  margin-left: 7px; margin-top: -7px; z-index: 0;}
+}
+
+@-webkit-keyframes green{
+0%{  margin-left: 7px; margin-top: 7px;}
+12.5%{ margin-left: -7px;  margin-top: -7px;} 
+25%{ margin-left: 7px; margin-top: 7px; z-index: 10; }
+37.5%{  margin-left: -7px; margin-top: -7px; z-index: 0;}
+50%{ margin-left: 7px;  margin-top: 7px;}
+62.5%{ margin-left: -7px;  margin-top: -7px;   }
+75%{ margin-left: 7px;  margin-top: 7px; z-index: 10;}
+87.5%{  margin-left:-7px;  margin-top: -7px;  z-index: 0;}
+100%{ margin-left: 7px; margin-top: 7px;}
+}
