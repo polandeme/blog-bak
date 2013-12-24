@@ -17,6 +17,7 @@ categories: html5
     - `article`独立的文章内容  
     -  `aside` 相关内容或者引文  
     - `nav` 导航类辅助内容    
+[html5 新增属性总结](http://imsole.net/html5/index.html)
 - ####canvas  
 &nbsp;&nbsp;&nbsp;&nbsp;canvas是html5中一个基础且重要的东西，用它来进行进行画东西，具体都canvas一些操作 请戳[canvas](https://developer.mozilla.org/zh-CN/docs/Canvas_tutorial)  
     - [用canvas画的时钟](http://polandeme.github.io/2013/09/19/clock/)
