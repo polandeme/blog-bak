@@ -5,7 +5,7 @@ date:   2013-12-23 13:14:46
 categories: html5 
 ---
 ###概括
-&nbsp;&nbsp;&nbsp;&nbsp;html5并不是想我们想象的那么神秘，其实只是让原来的东西变的更容易。html5增加的东西不仅仅是一些简单都新标签，那些知识一些简单的概念。就想html4的时候各个标签它只是标签而已。更重要的是灵活运用。  
+&nbsp;&nbsp;&nbsp;&nbsp;html5并不是想我们想象的那么神秘，其实只是让原来的东西变的更容易。html5增加的东西不仅仅是一些简单都新标签，那些只是一些简单的概念。就像html4的时候各个标签它只是标签而已。更重要的是灵活运用。  
 &nbsp;&nbsp;&nbsp;&nbsp;下面主要是将html5主要的东西概括一下。不对都地方请指正。  
 
 - ####新标签  
@@ -17,6 +17,7 @@ categories: html5
     - `article`独立的文章内容  
     -  `aside` 相关内容或者引文  
     - `nav` 导航类辅助内容    
+[html5 新增属性总结](http://imsole.net/html5/index.html)
 - ####canvas  
 &nbsp;&nbsp;&nbsp;&nbsp;canvas是html5中一个基础且重要的东西，用它来进行进行画东西，具体都canvas一些操作 请戳[canvas](https://developer.mozilla.org/zh-CN/docs/Canvas_tutorial)  
     - [用canvas画的时钟](http://polandeme.github.io/2013/09/19/clock/)
@@ -32,8 +33,8 @@ categories: html5
 
     - 教程[参考](http://software.intel.com/zh-cn/blogs/2012/03/02/webhtml5-communication-api)  
 &nbsp;&nbsp;&nbsp;&nbsp;对于这方面的可能比较会用的可能多，希望自习看一下  
-- ####web Scoket  
-&nbsp;&nbsp;&nbsp;&nbsp;web Scoket html5中一个强大的通信功能，实现实时更新，减少网络延迟。  
+- ####webScoket  
+&nbsp;&nbsp;&nbsp;&nbsp;webScoket html5中一个强大的通信功能，实现实时更新，减少网络延迟。  
 用它可以做什么  
   - 聊天室  
   - 类似你画我猜游戏  
@@ -82,7 +83,7 @@ categories: html5
 
 
 ###开发html5应用  
-&nbsp;&nbsp;&nbsp;&nbsp;上面那些只是对html5的应用的一些介绍，是想要开发一个html5应用你，最主要的是将这些东西能够完美的结合起来。例如开发一个你画我才，需要画板(canvas),然后需要对方实时看见，那就需要web socket。而web Scoket又需要配置环境，如果想用的更好一些，可能还需要一些后台知识。所以说重要的是能将这些知识结合在一起。  
+&nbsp;&nbsp;&nbsp;&nbsp;上面那些只是对html5的应用的一些介绍，是想要开发一个html5应用你，最主要的是将这些东西能够完美的结合起来。例如开发一个你画我才，需要画板(canvas),然后需要对方实时看见，那就需要web socket。而webScoket又需要配置环境，如果想用的更好一些，可能还需要一些后台知识。所以说重要的是能将这些知识结合在一起。  
 如果有更好的表现还需要看一下css3的相关知识，这些都能够很大程度的减少工程量。  
 
 
