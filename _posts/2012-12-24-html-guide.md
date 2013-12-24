@@ -5,30 +5,32 @@ date:   2013-12-23 13:14:46
 categories: html5 
 ---
 ###概括
-&nbsp;&nbsp;&nbsp;&nbsp;html5并不是想我们想象的那么神秘，其实只是让原来的东西变的更容易。html5增加的东西不仅仅是一些简单都新标签，那些知识一些简单的概念。就想html4的时候各个标签它只是标签而已。更重要的是灵活运用。  
+&nbsp;&nbsp;&nbsp;&nbsp;html5并不是想我们想象的那么神秘，其实只是让原来的东西变的更容易。html5增加的东西不仅仅是一些简单都新标签，那些只是一些简单的概念。就像html4的时候各个标签它只是标签而已。更重要的是灵活运用。  
 &nbsp;&nbsp;&nbsp;&nbsp;下面主要是将html5主要的东西概括一下。不对都地方请指正。  
 
 - ####新标签  
 &nbsp;&nbsp;&nbsp;&nbsp;html5的一些新标签增加了部分比较有用的标签，同时也将上一版的标签的含义有所改变，这个具体请自行看书，html5标签最主要的就是它更接近与语义化。简单的举一下例子。 
 
-- `header` 标记头部区域的内容(用于整个页面或者页面的一块区域)  
-- `footer` 标记脚部区域的内容(用于整个页面或者页面的一块区域)   
-- `section` Web 页面的一块区域  
-- `article`独立的文章内容  
--  `aside` 相关内容或者引文  
-- `nav` 导航类辅助内容    
+    - `header` 标记头部区域的内容(用于整个页面或者页面的一块区域)  
+    - `footer` 标记脚部区域的内容(用于整个页面或者页面的一块区域)   
+    - `section` Web 页面的一块区域  
+    - `article`独立的文章内容  
+    -  `aside` 相关内容或者引文  
+    - `nav` 导航类辅助内容    
 - ####canvas  
 &nbsp;&nbsp;&nbsp;&nbsp;canvas是html5中一个基础且重要的东西，用它来进行进行画东西，具体都canvas一些操作 请戳[canvas](https://developer.mozilla.org/zh-CN/docs/Canvas_tutorial)  
-- [用canvas画的时钟](http://polandeme.github.io/2013/09/19/clock/)
-- [好多好的demo](https://developer.mozilla.org/ms/demos/tag/tech:canvas)   
+    - [用canvas画的时钟](http://polandeme.github.io/2013/09/19/clock/)
+    - [好多好的demo](https://developer.mozilla.org/ms/demos/tag/tech:canvas)   
 - ####video & audio  
 &nbsp;&nbsp;&nbsp;&nbsp;功能强大，知识简单，不做赘述，[常用api](http://polandeme.github.io/2013/09/19/clock/)
 - ####Geolocation 
 &nbsp;&nbsp;&nbsp;&nbsp;Geolocation是位置信息，利用它可以调用找到你的位置信息，给出的是一个经纬度的值，结合其他地图api可以很好都开发出地图应用。  
-- 个人感觉比较适合做商业应用 资料[参考](http://www.ibm.com/developerworks/cn/web/wa-html5fundamentals3/)  
+
+    - 个人感觉比较适合做商业应用 资料[参考](http://www.ibm.com/developerworks/cn/web/wa-html5fundamentals3/)  
 - ####Communication  
-&nbsp;&nbsp;&nbsp;&nbsp; 顾名思义Communication主要就是关于通信，方面的知识，页面与页面之间，页面与框架之间的信息互通，比较常见的一个例子就是html5做的幻灯片就是利用这方面的知识点做的。  
-- 教程[参考](http://software.intel.com/zh-cn/blogs/2012/03/02/webhtml5-communication-api)  
+&nbsp;&nbsp;&nbsp;&nbsp; 顾名思义Communication主要就是关于通信，方面的知识，页面与页面之间，页面与框架之间的信息互通，比较常见的一个例子就是html5做的幻灯片就是利用这方面的知识点做的。    
+
+    - 教程[参考](http://software.intel.com/zh-cn/blogs/2012/03/02/webhtml5-communication-api)  
 &nbsp;&nbsp;&nbsp;&nbsp;对于这方面的可能比较会用的可能多，希望自习看一下  
 - ####web Scoket  
 &nbsp;&nbsp;&nbsp;&nbsp;web Scoket html5中一个强大的通信功能，实现实时更新，减少网络延迟。  
@@ -44,7 +46,7 @@ categories: html5
 - ####Web Storage 
 &nbsp;&nbsp;&nbsp;&nbsp;本地存储，其实就是cookie的扩展版。也是一个比较有用的功能,可以不用利用服务器就可以存储数据，方便又快速。
 主要包括`sessionStorage` `localstorage`对这方面主要是对数据的处理和了解，只要能够有个大体了解，操作起来并不是太难  
-- [参考](http://blog.baiwand.com/?post=184)  
+    - [参考](http://blog.baiwand.com/?post=184)  
 
 - ###Forms   
     - `tel`电话号码  
