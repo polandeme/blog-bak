@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "html5 guide!"
+title:  "html guide!"
 date:   2013-12-23 13:14:46
 categories: html5 
 ---
