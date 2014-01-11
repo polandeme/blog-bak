@@ -24,7 +24,7 @@ categories: web javascript
     }  
 大括号位置:  
 
-    {% hightlight javascript %}
+    {% highlight javascript %}
     //提倡
     function foo() {
         return {
@@ -37,6 +37,7 @@ categories: web javascript
     } else {
         return b;
     }
+    {% endhighlight %}
 因为js会默认为语句末尾添加分号这样有时就会出现问题  
 ###空格  
 使用空格比较好的位置：  
