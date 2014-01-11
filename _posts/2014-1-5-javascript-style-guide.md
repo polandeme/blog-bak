@@ -24,6 +24,7 @@ categories: web javascript
     }  
 大括号位置:  
 
+    {% hightlight javascript %}
     //提倡
     function foo() {
         return {
@@ -76,4 +77,5 @@ categories: web javascript
      * @param {参数类型} 参数名 参数说明
      * @return {返回值类型} 返回值说明
      */
+
 
