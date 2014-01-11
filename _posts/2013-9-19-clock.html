@@ -16,15 +16,15 @@
     left: 128px;
 }
 
-
 </style>
 <body>
 <div id = "time">
     <canvas id = "clock" width = "250" height = "250"></canvas>
-<canvas id = "hour" width = "10px" height = "200px"></canvas>
-<canvas id = "min"  width = "10px" height = "200px"></canvas>
-<canvas id = "sec"  width = "10px" height = "200px"></canvas>
+    <canvas id = "hour" width = "10px" height = "200px"></canvas>
+    <canvas id = "min"  width = "10px" height = "200px"></canvas>
+    <canvas id = "sec"  width = "10px" height = "200px"></canvas>
 </div>
+
 <script type="text/javascript">
     function clock() {
         var dr = document.getElementById("clock");
@@ -35,23 +35,15 @@
             x = 125 + Math.sin(deg*i)*100;
             y = 125 - Math.cos(deg*i)*100;
             ct.fillStyle = "red";
-            // ct.();
             ct.fillText(i , x , y);
-                
         }
     }
-    function sec(){
+    function sec() {
         var dr = document.getElementById("sec");
         var ct = dr.getContext("2d");
-
         ct.arc(5,100,5,0, 2 * Math.PI);
         ct.fillStyle= "red";
         ct.fill();
-
-        // ct.rect(2, 55, 4, 45);
-        // ct.fillStyle = "red";
-        // ct.fill();
-
         ct.beginPath();
         ct.moveTo(5, 10);
         ct.lineTo(5,100);
@@ -60,58 +52,48 @@
         ct.closePath();
         }
 
-
-        function min(){
+    function min() {
         var dr = document.getElementById("min");
         var ct = dr.getContext("2d");
-
         ct.arc(5,100,5,0, 2 * Math.PI);
         ct.fillStyle= "red";
         ct.fill();
-
-        // ct.rect(2, 55, 4, 45);
-        // ct.fillStyle = "red";
-        // ct.fill();
-
         ct.beginPath();
         ct.moveTo(5, 30);
         ct.lineTo(5,100);
         ct.strokeStyle="blue";
         ct.stroke();
         ct.closePath();
-        }
+    }
 
-
-        function hour(){
+    function hour() {
             var dr = document.getElementById("hour");
             var ctx = dr.getContext("2d");
-
             ctx.rect(3,50,5,50);
             ctx.fillstyle="gray";
             ctx.fill();
         }
 
-    function init(){
+    function init() {
         var d = new Date();
         var st = new Array( d.getSeconds(), d.getMinutes(),d.getHours() );
         var s = document.getElementById("sec"), m = document.getElementById("min"), h = document.getElementById("hour");
-        if( s.style.transform==undefined)
-        {
+        if( s.style.transform === undefined) {
             s.style.transform = "rotate(" + st[0]*6 + "deg)";
             m.style.transform = "rotate(" + st[1]*6 + "deg)";
             h.style.transform = "rotate(" + (st[2]%12)*30 + "deg)";
-        }else{
+        } else {
             s.style.webkitTransform = "rotate(" + st[0]*6 + "deg)";
             m.style.webkitTransform = "rotate(" + st[1]*6 + "deg)";
             h.style.webkitTransform = "rotate(" + (st[2]%12)*30 + "deg)";
         }
         setTimeout("init()",1000);
     }
+    init();
     clock();
     hour();
     min();
     sec();
-    init();
 </script>
 </body> 
 </html>

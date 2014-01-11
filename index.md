@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: polande
+title: abc!
+sagline: polande
 ---
 <ul class="posts">
   {% for post in site.posts %}
