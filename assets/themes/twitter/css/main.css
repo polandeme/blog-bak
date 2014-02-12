@@ -1,0 +1,11 @@
+pre code {
+    background-color: #f7f7f9;
+    border: none;
+    color: black;
+}
+code {
+    background-color: #f7f7f9;
+    padding: 2px 4px;
+    color: #d14;
+    border: 1px solid #e1e1e8;
+}
