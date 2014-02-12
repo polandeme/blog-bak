@@ -78,5 +78,9 @@ categories: web javascript
      * @param {参数类型} 参数名 参数说明
      * @return {返回值类型} 返回值说明
      */
+<<<<<<< HEAD
 参考[dd](http://www.lifefrom.com/qianduan/336.html)  
+=======
+
+>>>>>>> 897e179aed9ea5dba4b5ffa3a5d76353b2deff80
 

@@ -29,5 +29,9 @@ powerline 配置
     - 快捷键     
 ```全屏(屏太小，所以一般<F11>全屏开发)```       
 ####配置tmux  
+<<<<<<< HEAD
 &nbsp;&nbsp;&nbsp;&nbsp;其实tmux和vim一样也可以自己配置快捷键等操作都，主要就是在home目录下新建(如果没有)一个[.tmux_conf](https://github.com/polandeme/tmux_config)文件，然后再进行操作即可。  
+=======
+&nbsp;&nbsp;&nbsp;&nbsp;其实tmux和vim一样也可以自己配置快捷键等操作都，主要就是在home目录下新建(如果没有)一个[.tmux_conf](https://github.com/polandeme/tmux_config)文件，然后在厘米那进行操作即可。  
+>>>>>>> 897e179aed9ea5dba4b5ffa3a5d76353b2deff80
 为了方便可以在终端打开时立即执行tmux(以登录shell方式运行)，在终端设置一下，打开终端执行shell命令`tmux`  
