@@ -13,6 +13,3 @@ categories: jekyll update
 -  多搜索。  
 上面都是用以前都方法装的，但是好像也可以用`apt-get install jekyll`不过好像有问题，这次是两个混合都方式，下次用这个方式试一下。  
 -  启动切换到本地jekyll 目录`jekyll serve` 浏览器输入`http://localhost:4000/`    
-  
-
-
